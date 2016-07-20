@@ -1,0 +1,41 @@
+*{
+
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	text-align: center; 
+	background-color: black;
+	color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px; 
+}
+
+.h1 {
+	padding: 0px;
+	margin-top: 0px;
+
+}
+
+.jumbotron-pic {
+	margin-top: 0px;
+	padding: 20px;
+}
+
+.players {
+	text-align: left;
+	font-size: 50px;
+	margin-right: 20px; 
+}
+
+.player-list {
+	border-style: solid;
+	border-right-color: black;
+	border-width: 3px;
+	text-align: center;
+}
+
+#game-content {
+	color: black;
+	font-family: 'Inconsolata', monospace;
+}
