@@ -19,27 +19,42 @@
   <div class="p1"> <p> Choose your character, and then choose your opponent. <br> Try to beat all three. Good luck! </p> </div>
 </div>
 
-<div class="container">
+<div id="game-content">
+	<div class="container">
 
-	<div id="game-content">
-		<div class="players"> <p1> Players </p1> </div> <br> <br>
+	
+		<div class="players"> <p1> Players </p1> </div> 
 
-		<div class="col-md-12">
-			<div class="row">
-				<div class="player-list col-sm-3"> <p> Luke Skywalker </p> <br> <img src="assets/images/luke.jpg" alt="Luke" class="img-responsive" /> <br> <p> 120 </p> </div>
+		
+			 <div class="text-center"> 
+				<button id="player1" class="player-list character"> <p> Luke Skywalker </p> <br> <img src="assets/images/luke.jpg" alt="Luke" height="200px" width="180px" /> <br> <p> 120 </p> </button>
 
-				<div class="player-list col-sm-3"> <p> Darth Maul </p> <br> <img src="assets/images/darth-maul.jpg" alt="Darth Maul" class="img-responsive" /> <br> <p> 180 </p> </div>
+				<button id="player2" class="player-list character"> <p> Darth Maul </p> <br> <img src="assets/images/darth-maul.jpg" alt="Darth Maul" height="200px" width="180px" /> <br> <p> 180 </p> </button>
 
-				<div class="player-list col-sm-3"> <p> Darth Vader </p> <br> <img src="assets/images/vader.jpg" alt="Darth Vader" class="img-responsive" /> <br> <p> 150 </p> </div>
+				<button id="player3" class="player-list character"> <p> Darth Vader </p> <br> <img src="assets/images/vader.jpg" alt="Darth Vader" height="200px" width="180px"/> <br> <p> 150 </p> </button>
 
-				<div class="player-list col-sm-3"> <p> Obi-Wan Kenobi </p> <br> <img src="assets/images/obi-wan.jpg" alt="Obi Wan" class="img-responsive" /> <br> <p> 188 </p> </div>
-
+				<button id="player4" class="player-list character"> <p> Obi-Wan Kenobi </p> <br> <img src="assets/images/obi-wan.jpg" alt="Obi Wan" height="200px" width="180px"/> <br> <p> 188 </p> </button>
 			</div>
+		
 
-		</div>
+
+			<div class="row">
+				<div id="play-game" class="defender-choice play-game col-md-5"> <p id="defender"> Defender </p> </div>
+
+				<button type="button" id="attack" class="btn play-game btn-secondary col-md-2">Attack</button>
+
+				<div id="play-game" class="opponent-choice play-game col-md-5"> <p id="opponent"> Opponent </p> </div>
+			</div>
+		
+
+	</div>
+
+
 
 </div>
 
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
 
 
 </body>

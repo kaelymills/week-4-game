@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Inconsolata', monospace;
+}
+
 .jumbotron {
 	text-align: center; 
 	background-color: black;
@@ -29,13 +33,29 @@
 }
 
 .player-list {
-	border-style: solid;
+	/* border-style: solid; 
 	border-right-color: black;
-	border-width: 3px;
+	border-width: 3px; */
 	text-align: center;
+}
+
+.btn {
+
+}
+
+.opponent-choice {
+	text-align: right;
 }
 
 #game-content {
 	color: black;
 	font-family: 'Inconsolata', monospace;
+}
+
+#play-game {
+	font-family: 'Inconsolata', monospace;
+	
+	border-style: none;
+	
+
 }
