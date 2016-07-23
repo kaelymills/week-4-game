@@ -8,7 +8,7 @@ var playerNotChosen = false;
 
 /* 
 
-var enemyNames = ["luke", "obiwan", "vader", "maul"];
+var enemyNames = [luke, obiwan, vader, maul];
 	var healthPoints = [120, 188, 150, 180];
 	var counterPoints = [10, 10, 10, 10]
 	var attackPoints = [20, 20, 20, 20]
